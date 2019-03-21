@@ -1,0 +1,17 @@
+{
+  "name": "httpsServer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sishenhei7/httpsServer.git",
+  "author": "杨舟 <yangzhou@yimian.com.cn>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "http-proxy-middleware": "^0.19.1",
+    "morgan": "^1.9.1"
+  }
+}
