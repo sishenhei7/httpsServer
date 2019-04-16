@@ -165,6 +165,21 @@ httpsServer.listen(SSLPORT, function () {
 });
 ```
 
+### 前端路由
+
+实现丝滑般的前端路由需要使用connect-history-api-fallback库，用法如下：
+
+```
+// 安装connect-history-api-fallback库
+npm install --save connect-history-api-fallback
+
+// server.js中引入
+var express = require('express');
+
+var app = express();
+app.use(history());
+```
+
 ### 最后
 
 最后我们把server.js，credentials.js和proxy.js放在一起就好了啦！
